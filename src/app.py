@@ -23,4 +23,4 @@ if __name__ == '__main__':
     app.register_error_handler(401, status_401)
     app.register_error_handler(404, status_404)
 
-    app.run(port=5500, debug=True)
+    app.run(debug=True,use_reloader=True)
